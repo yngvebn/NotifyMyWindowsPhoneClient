@@ -10,7 +10,7 @@ namespace NotifyMyWindowsPhoneClient
     {
         public Uri ServerUrl
         {
-            get { return new Uri((_https ? "https://" : "http://") + "hal2010:8888"); }
+            get { return new Uri((_https ? "https://" : "http://") + "notifymywindowsphone.com"); }
         }
 
 
