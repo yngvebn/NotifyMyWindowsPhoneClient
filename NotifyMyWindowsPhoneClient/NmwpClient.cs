@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Text;
 using System.Xml.Linq;
@@ -62,106 +61,5 @@ namespace NotifyMyWindowsPhoneClient
 
             return System.Text.Encoding.UTF8.GetBytes(requestString);
         }
-    }
-
-    public static class HtmlHelpers
-    {
-        public static string HtmlEncode(this string s)
-        {
-            return System.Web.HttpUtility.HtmlEncode(s);
-        }
-
-        public static int SafeInt(this XElement x)
-        {
-            int i = 0;
-            if (x == null) return i;
-            int.TryParse(x.Value, out i);
-
-            return i;
-        }
-        public static int SafeInt(this XAttribute x)
-        {
-            int i = 0;
-            if (x == null) return i;
-            int.TryParse(x.Value, out i);
-
-            return i;
-        }
-    }
-    public class NmwpResponse
-    {
-        private XDocument _xd;
-
-        public NmwpResponse(XDocument xd)
-        {
-            // TODO: Complete member initialization
-            this._xd = xd;
-        }
-        private bool IsValid
-        {
-            get
-            {
-                if (_xd.Root == null) return false;
-                if( _xd.Root.Element("success") != null) return true;
-                if (_xd.Root.Element("error") != null) return true;
-                return false;
-            }
-        }
-        public int Code
-        {
-            get
-            {
-                if (IsValid)
-                    if (_xd.Root.Elements().First().Attribute("Code") != null)
-                        return _xd.Root.Elements().First().Attribute("Code").SafeInt();
-                return _xd.Root.Elements().First().Attribute("code").SafeInt();
-            }
-        }
-
-        public string Message
-        {
-            get
-            {
-                return _xd.Root.Elements().First().Value;
-            }
-        }
-
-        public bool Success
-        {
-            get
-            {
-                if (_xd.Root == null) return false;
-                return _xd.Root.Element("success") != null;
-            }
-        }
-        internal static NmwpResponse Create(XDocument xd)
-        {
-            return new NmwpResponse(xd);
-        }
-    }
-
-    public class NmwpNotification
-    {
-        public string Application { get; private set; }
-        public string Event { get; private set; }
-        public string Description { get; private set; }
-        public NmwpPriority Priority { get; private set; }
-
-        public NmwpNotification(string application, string ev, string description, NmwpPriority priority = NmwpPriority.Normal)
-        {
-            Application = application;
-            Event = ev;
-            Description = description;
-            Priority = priority;
-        }
-    }
-
-    public enum NmwpPriority
-    {
-        Urgent = 2,
-        Important = 1,
-        Normal = 0,
-        BelowNormal = -1,
-        Unimportant = -2
     }
 }

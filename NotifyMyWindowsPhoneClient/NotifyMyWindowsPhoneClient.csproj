@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HtmlHelpers.cs" />
     <Compile Include="NmwpClient.cs" />
+    <Compile Include="NmwpNotification.cs" />
+    <Compile Include="NmwpPriority.cs" />
+    <Compile Include="NmwpResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
