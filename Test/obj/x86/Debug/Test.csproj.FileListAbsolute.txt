@@ -1,0 +1,8 @@
+C:\Users\YNGVE\gitprojects\Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\YNGVE\gitprojects\Test\bin\Debug\Test.exe.config
+C:\Users\YNGVE\gitprojects\Test\bin\Debug\Test.exe
+C:\Users\YNGVE\gitprojects\Test\bin\Debug\Test.pdb
+C:\Users\YNGVE\gitprojects\Test\bin\Debug\NotifyMyWindowsPhoneClient.dll
+C:\Users\YNGVE\gitprojects\Test\bin\Debug\NotifyMyWindowsPhoneClient.pdb
+C:\Users\YNGVE\gitprojects\Test\obj\x86\Debug\Test.exe
+C:\Users\YNGVE\gitprojects\Test\obj\x86\Debug\Test.pdb

@@ -1,0 +1,43 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="831" fromTop="24" />
+      <File id="E8D44C36-8B18-44E9-A61E-8AAFB46AD3D6/f:Program.cs" caret="229" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3427" fromTop="12" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3427" fromTop="13" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3427" fromTop="30" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3427" fromTop="28" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3527" fromTop="36" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3427" fromTop="27" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3427" fromTop="29" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="2617" fromTop="29" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="2428" fromTop="25" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="1878" fromTop="20" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="1857" fromTop="26" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="2783" fromTop="23" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3173" fromTop="31" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="3064" fromTop="29" />
+      <File id="9C26B401-FB24-4D5B-B7C0-D36C4E45AB13/f:NmwpClient.cs" caret="642" fromTop="17" />
+      <File id="E8D44C36-8B18-44E9-A61E-8AAFB46AD3D6/f:Program.cs" caret="523" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

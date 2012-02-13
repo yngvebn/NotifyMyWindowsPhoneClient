@@ -1,0 +1,5 @@
+C:\Users\YNGVE\gitprojects\NotifyMyWindowsPhoneClient\bin\Debug\NotifyMyWindowsPhoneClient.dll
+C:\Users\YNGVE\gitprojects\NotifyMyWindowsPhoneClient\bin\Debug\NotifyMyWindowsPhoneClient.pdb
+C:\Users\YNGVE\gitprojects\NotifyMyWindowsPhoneClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\YNGVE\gitprojects\NotifyMyWindowsPhoneClient\obj\Debug\NotifyMyWindowsPhoneClient.dll
+C:\Users\YNGVE\gitprojects\NotifyMyWindowsPhoneClient\obj\Debug\NotifyMyWindowsPhoneClient.pdb
